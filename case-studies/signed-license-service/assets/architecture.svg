@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="656" viewBox="0 0 1120 656" role="img" aria-labelledby="title desc">
+  <title id="title">Signed License Service — high-level responsibilities</title>
+  <desc id="desc">An application communicates with a validation and authorization backend. Signing and persistent state are separate backend responsibilities. The illustration omits protocol formats, key rules and deployment details.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7dd3c7"/></marker>
+  </defs>
+  <rect width="1120" height="620" rx="24" fill="#101d2d"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="48" y="57" fill="#7dd3c7" font-size="15" font-weight="700" letter-spacing="2">BACKEND / TRUST BOUNDARIES</text>
+    <text x="48" y="104" fill="#f5f1e7" font-size="34" font-weight="700">Controlled access with durable state</text>
+    <text x="48" y="138" fill="#b7c4d3" font-size="18">Public overview of a private service</text>
+    <rect x="48" y="212" width="280" height="135" rx="15" fill="#1c3047" stroke="#486078"/>
+    <text x="73" y="253" fill="#f5f1e7" font-size="23" font-weight="700">Application</text>
+    <text x="73" y="289" fill="#c8d4df" font-size="17">Access requests</text>
+    <text x="73" y="317" fill="#c8d4df" font-size="17">Local verification</text>
+    <path d="M 334 279 H 438" fill="none" stroke="#7dd3c7" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <rect x="453" y="180" width="619" height="335" rx="20" fill="#152b3b" stroke="#486078" stroke-dasharray="7 6"/>
+    <text x="480" y="215" fill="#9fb3c7" font-size="16" font-weight="700" letter-spacing="1">PRIVATE BACKEND</text>
+    <rect x="480" y="239" width="565" height="90" rx="13" fill="#173e45" stroke="#7dd3c7"/>
+    <text x="503" y="277" fill="#f5f1e7" font-size="23" font-weight="700">Validation and authorization</text>
+    <text x="503" y="307" fill="#d1e7e3" font-size="17">Clear service responsibilities</text>
+    <path d="M 620 333 V 369" fill="none" stroke="#7dd3c7" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M 903 333 V 369" fill="none" stroke="#7dd3c7" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="480" y="383" width="268" height="103" rx="13" fill="#263346" stroke="#7b8ca0"/>
+    <text x="501" y="423" fill="#f5f1e7" font-size="22" font-weight="700">Signed entitlements</text>
+    <text x="501" y="455" fill="#c8d4df" font-size="16">Signing responsibility</text>
+    <rect x="773" y="383" width="272" height="103" rx="13" fill="#263346" stroke="#7b8ca0"/>
+    <text x="794" y="423" fill="#f5f1e7" font-size="22" font-weight="700">Persistent state</text>
+    <text x="794" y="455" fill="#c8d4df" font-size="16">Recovery and audit</text>
+    <text x="48" y="568" fill="#b7c4d3" font-size="16">Original illustration · Source-reviewed structure · Execution not verified</text>
+    <text x="48" y="594" fill="#7d90a6" font-size="14">Responsibility view only. Private protocol, key rules and operational setup are omitted.</text>
+  </g>
+<g id="portfolio-copyright"><rect x="0" y="620" width="1120" height="36" fill="#ffffff"/><text x="32" y="643" style="fill:#536777;font:12px Segoe UI,Arial,sans-serif">© 2026 Anton Gorodnichiy · All rights reserved · Private implementation</text></g>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="826" viewBox="0 0 1200 826" role="img" aria-labelledby="title desc">
+  <title id="title">Website support conversation — illustrative reconstruction</title>
+  <desc id="desc">Original abstract illustration of a browser support widget with synthetic text and image messages and an operator-set online status. Illustrative reconstruction — synthetic data; not a running application screenshot.</desc>
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102c3a"/><stop offset="1" stop-color="#1c4650"/></linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="135%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#163847" flood-opacity=".1"/></filter>
+    <style>
+      text{font-family:Segoe UI,Arial,sans-serif;fill:#163847}.white{fill:#fff}.muted{fill:#647985}.small{font-size:14px}.body{font-size:18px}.label{font-size:12px;letter-spacing:1.6px;font-weight:700}.heading{font-size:23px;font-weight:650}
+    </style>
+  </defs>
+  <rect width="1200" height="790" rx="24" fill="#f1f5f4"/>
+  <path d="M24 0H1176Q1200 0 1200 24V163H0V24Q0 0 24 0" fill="url(#hero)"/>
+  <circle cx="1117" cy="83" r="90" fill="#73cdb7" opacity=".07"/>
+  <circle cx="1117" cy="83" r="54" fill="none" stroke="#99ddcb" opacity=".17"/>
+  <text x="52" y="43" class="label" fill="#a7dacd" style="fill:#a7dacd">WEB SUPPORT INTERFACE</text>
+  <text x="52" y="92" class="white" font-size="38" font-weight="650">Help without leaving the page</text>
+  <text x="52" y="126" class="white body" opacity=".75">A browser conversation connected to a Telegram support workflow</text>
+
+  <g filter="url(#shadow)">
+    <rect x="52" y="195" width="646" height="511" rx="18" fill="#fff"/>
+    <path d="M70 195H680Q698 195 698 213V249H52V213Q52 195 70 195" fill="#e3ebe9"/>
+    <circle cx="76" cy="222" r="4" fill="#91a6a8"/><circle cx="92" cy="222" r="4" fill="#a6b7b7"/><circle cx="108" cy="222" r="4" fill="#bbc8c7"/>
+    <rect x="154" y="209" width="361" height="26" rx="8" fill="#f4f7f6"/>
+    <text x="173" y="227" class="small muted">Website support</text>
+
+    <circle cx="95" cy="290" r="21" fill="#d9f2ea"/>
+    <path d="M86 287h18v11H93l-5 4v-4h-2z" fill="none" stroke="#237960" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="132" y="285" class="heading">Support team</text>
+    <circle cx="137" cy="308" r="4" fill="#399773"/>
+    <text x="148" y="313" class="small muted">Online · status set by operator</text>
+    <path d="M663 279l10 10m0-10-10 10" stroke="#819494" stroke-width="2" stroke-linecap="round"/>
+    <line x1="75" y1="337" x2="675" y2="337" stroke="#e8eeec"/>
+
+    <rect x="234" y="360" width="432" height="72" rx="14" fill="#e0f0e9"/>
+    <text x="253" y="387" class="body">Could you help me open a report?</text>
+    <text x="253" y="413" class="small muted">Visitor · synthetic message</text>
+
+    <rect x="83" y="453" width="432" height="73" rx="14" fill="#f0f4f4"/>
+    <text x="102" y="481" class="body">Of course. What do you see on the page?</text>
+    <text x="102" y="507" class="small muted">Support operator · synthetic reply</text>
+
+    <rect x="379" y="546" width="287" height="54" rx="12" fill="#e0f0e9"/>
+    <rect x="394" y="559" width="28" height="27" rx="5" fill="#b5d9cb"/>
+    <path d="M399 581l7-9 5 5 6-6v10z" fill="#538671"/>
+    <circle cx="403" cy="566" r="2" fill="#fff"/>
+    <text x="433" y="579" font-size="16">Illustrative image attachment</text>
+
+    <line x1="75" y1="620" x2="675" y2="620" stroke="#e8eeec"/>
+    <rect x="82" y="639" width="510" height="43" rx="10" fill="#f5f7f7" stroke="#e1e8e6"/>
+    <path d="M102 657v9a5 5 0 0 0 10 0v-12a3 3 0 0 0-6 0v11" fill="none" stroke="#7c9593" stroke-width="2" stroke-linecap="round"/>
+    <text x="129" y="666" class="small muted">Write a message…</text>
+    <rect x="604" y="639" width="62" height="43" rx="10" fill="#236c58"/>
+    <path d="M624 660h20m-7-7 7 7-7 7" stroke="#fff" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="753" y="235" class="label muted">SELECTED SUPPORT CAPABILITIES</text>
+  <g>
+    <circle cx="775" cy="290" r="21" fill="#dcece5"/><text x="764" y="296" font-size="16" font-weight="700">01</text>
+    <text x="812" y="286" class="heading">Keep the context</text>
+    <text x="812" y="316" class="body muted">Keep the support exchange</text>
+    <text x="812" y="342" class="body muted">together in one place.</text>
+  </g>
+  <line x1="775" y1="322" x2="775" y2="385" stroke="#c9dbd3" stroke-dasharray="4 5"/>
+  <g>
+    <circle cx="775" cy="415" r="21" fill="#dcece5"/><text x="764" y="421" font-size="16" font-weight="700">02</text>
+    <text x="812" y="411" class="heading">Show the exchange</text>
+    <text x="812" y="441" class="body muted">Text, images and stored</text>
+    <text x="812" y="467" class="body muted">history in one widget.</text>
+  </g>
+  <line x1="775" y1="447" x2="775" y2="510" stroke="#c9dbd3" stroke-dasharray="4 5"/>
+  <g>
+    <circle cx="775" cy="540" r="21" fill="#dcece5"/><text x="764" y="546" font-size="16" font-weight="700">03</text>
+    <text x="812" y="536" class="heading">Bring replies back</text>
+    <text x="812" y="566" class="body muted">Connect the visitor with</text>
+    <text x="812" y="592" class="body muted">the support team.</text>
+  </g>
+  <rect x="752" y="641" width="396" height="65" rx="12" fill="#e7eeeb"/>
+  <text x="770" y="668" class="small muted">Source-reviewed interface behavior.</text>
+  <text x="770" y="689" class="small muted">Visitor isolation still needs improvement.</text>
+  <line x1="52" y1="735" x2="1148" y2="735" stroke="#d6e1dc"/>
+  <text x="52" y="762" class="small muted">illustrative reconstruction — synthetic data; not a running application screenshot</text>
+<g id="portfolio-copyright"><rect x="0" y="790" width="1200" height="36" fill="#ffffff"/><text x="32" y="813" style="fill:#536777;font:12px Segoe UI,Arial,sans-serif">© 2026 Anton Gorodnichiy · All rights reserved · Private implementation</text></g>
+</svg>

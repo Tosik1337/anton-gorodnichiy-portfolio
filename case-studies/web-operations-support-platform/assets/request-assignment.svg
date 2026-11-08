@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="826" viewBox="0 0 1200 826" role="img" aria-labelledby="title desc">
+  <title id="title">Administrator request assignment — illustrative reconstruction</title>
+  <desc id="desc">Neutral abstract message cards show a synthetic website question and support team handling. The composition does not reproduce a private interface or reveal implementation details. Illustrative reconstruction — synthetic data; not a running application screenshot.</desc>
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102c3a"/><stop offset="1" stop-color="#1c4650"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-15%" width="125%" height="140%"><feDropShadow dx="0" dy="9" stdDeviation="13" flood-color="#173c43" flood-opacity=".08"/></filter>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0l7 3.5L0 7z" fill="#6e9f8d"/></marker>
+    <style>text{font-family:Segoe UI,Arial,sans-serif;fill:#163847}.white{fill:#fff}.muted{fill:#647985}.small{font-size:14px}.body{font-size:18px}.label{font-size:12px;letter-spacing:1.6px;font-weight:700}.heading{font-size:24px;font-weight:650}</style>
+  </defs>
+  <rect width="1200" height="790" rx="24" fill="#f1f5f4"/>
+  <path d="M24 0H1176Q1200 0 1200 24V163H0V24Q0 0 24 0" fill="url(#top)"/>
+  <circle cx="1117" cy="83" r="90" fill="#73cdb7" opacity=".07"/>
+  <text x="52" y="43" class="label" style="fill:#a7dacd">OPERATOR WORKFLOW</text>
+  <text x="52" y="92" class="white" font-size="38" font-weight="650">From visitor to support team</text>
+  <text x="52" y="126" class="white body" opacity=".75">An abstract view of request handling, using synthetic messages</text>
+
+  <g filter="url(#shadow)">
+    <rect x="52" y="199" width="461" height="355" rx="18" fill="#fff"/>
+    <path d="M70 199H495Q513 199 513 217V270H52V217Q52 199 70 199" fill="#e4edea"/>
+    <circle cx="85" cy="234" r="17" fill="#c3dcd0"/>
+    <path d="M79 237a6 6 0 0 1 12 0m-9-7a3 3 0 1 0 6 0" stroke="#487963" stroke-width="1.5" fill="none"/>
+    <text x="116" y="231" class="body" font-weight="650">Incoming request</text>
+    <text x="116" y="253" class="small muted">Website support question</text>
+    <text x="79" y="309" class="label muted">SYNTHETIC REQUEST 024</text>
+    <text x="79" y="344" class="heading">Report access question</text>
+    <text x="79" y="380" class="body muted">Could you help me open a report?</text>
+    <line x1="79" y1="405" x2="486" y2="405" stroke="#e5ece9"/>
+    <text x="79" y="434" class="small muted">Support request</text>
+    <rect x="374" y="415" width="111" height="28" rx="14" fill="#f5eee0"/>
+    <text x="390" y="434" font-size="13" fill="#8d6930" style="fill:#8d6930">Unassigned</text>
+    <rect x="79" y="468" width="407" height="57" rx="10" fill="#246e59"/>
+    <text x="207" y="504" class="white body" font-weight="600">Handle request</text>
+  </g>
+
+  <path d="M531 377H659" stroke="#6e9f8d" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+  <rect x="544" y="329" width="108" height="29" rx="14" fill="#e1ece6"/>
+  <text x="570" y="349" class="small" font-weight="600">Handoff</text>
+
+  <g filter="url(#shadow)">
+    <rect x="684" y="199" width="464" height="355" rx="18" fill="#fff"/>
+    <path d="M702 199H1130Q1148 199 1148 217V270H684V217Q684 199 702 199" fill="#e4edea"/>
+    <circle cx="717" cy="234" r="17" fill="#c3dcd0"/>
+    <path d="M711 237v-5a6 6 0 0 1 12 0v5m-12 0h3m6 0h3" stroke="#487963" stroke-width="1.8" fill="none"/>
+    <text x="748" y="231" class="body" font-weight="650">Support team</text>
+    <text x="748" y="253" class="small muted">Operator tools</text>
+    <rect x="710" y="296" width="153" height="29" rx="14" fill="#e0f0e7"/>
+    <circle cx="727" cy="311" r="4" fill="#418d67"/>
+    <text x="739" y="316" font-size="14" style="fill:#286d4f">Assigned</text>
+    <text x="710" y="361" class="heading">Report access question</text>
+    <text x="710" y="397" class="body muted">An operator can respond</text>
+    <text x="710" y="423" class="body muted">through the support tools.</text>
+    <line x1="710" y1="450" x2="1122" y2="450" stroke="#e5ece9"/>
+    <text x="710" y="483" class="small muted">Keep the question and its owner</text>
+    <text x="710" y="506" class="small muted">clear to the support team.</text>
+  </g>
+
+  <rect x="52" y="584" width="1096" height="122" rx="16" fill="#e5eeea"/>
+  <circle cx="88" cy="625" r="16" fill="#c9dfd3"/>
+  <path d="M81 625a7 7 0 1 0 3-6m-3-3v8h8" fill="none" stroke="#3f795e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="119" y="630" font-size="20" font-weight="650">A support workflow with shared context</text>
+  <text x="119" y="659" class="body muted">Connect incoming questions with the people handling them.</text>
+  <text x="119" y="684" class="small muted">Selected capability reviewed in source; actual delivery has not been verified.</text>
+  <line x1="52" y1="735" x2="1148" y2="735" stroke="#d6e1dc"/>
+  <text x="52" y="762" class="small muted">illustrative reconstruction — synthetic data; not a running application screenshot</text>
+<g id="portfolio-copyright"><rect x="0" y="790" width="1200" height="36" fill="#ffffff"/><text x="32" y="813" style="fill:#536777;font:12px Segoe UI,Arial,sans-serif">© 2026 Anton Gorodnichiy · All rights reserved · Private implementation</text></g>
+</svg>

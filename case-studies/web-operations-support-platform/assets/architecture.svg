@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="826" viewBox="0 0 1200 826" role="img" aria-labelledby="title desc">
+  <title id="title">Scoped architecture of the Python web support platform</title>
+  <desc id="desc">High-level illustration of a website support widget, Python support backend, stored conversations and Telegram operator tools. Private interfaces, storage structures and implementation details are omitted. Reviewed in source; execution not verified.</desc>
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102c3a"/><stop offset="1" stop-color="#1c4650"/></linearGradient>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0l7 3.5L0 7z" fill="#6b9488"/></marker>
+    <marker id="arrowBack" markerWidth="7" markerHeight="7" refX="1" refY="3.5" orient="auto"><path d="M7 0 0 3.5 7 7z" fill="#6b9488"/></marker>
+    <style>text{font-family:Segoe UI,Arial,sans-serif;fill:#163847}.white{fill:#fff}.muted{fill:#647985}.small{font-size:14px}.body{font-size:18px}.label{font-size:12px;letter-spacing:1.6px;font-weight:700}.heading{font-size:22px;font-weight:650}.flow{fill:none;stroke:#6b9488;stroke-width:2;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="790" rx="24" fill="#f1f5f4"/>
+  <path d="M24 0H1176Q1200 0 1200 24V163H0V24Q0 0 24 0" fill="url(#top)"/>
+  <circle cx="1117" cy="83" r="90" fill="#73cdb7" opacity=".07"/>
+  <text x="52" y="43" class="label" style="fill:#a7dacd">SELECTED SUPPORT COMPONENTS</text>
+  <text x="52" y="92" class="white" font-size="38" font-weight="650">A shared Python workflow</text>
+  <text x="52" y="126" class="white body" opacity=".75">Browser messages, Telegram actions and stored context</text>
+
+  <text x="52" y="213" class="label muted">VISITOR INTERFACE</text>
+  <text x="430" y="213" class="label muted">APPLICATION CAPABILITIES</text>
+  <text x="905" y="213" class="label muted">PERSISTENCE</text>
+
+  <rect x="52" y="249" width="275" height="144" rx="16" fill="#fff" stroke="#d8e4de"/>
+  <rect x="75" y="273" width="31" height="24" rx="4" fill="none" stroke="#4d856f" stroke-width="2"/>
+  <line x1="75" y1="280" x2="106" y2="280" stroke="#4d856f" stroke-width="2"/>
+  <text x="75" y="328" class="heading">Browser widget</text>
+  <text x="75" y="358" class="body muted">JavaScript · HTML/CSS</text>
+  <text x="75" y="381" class="small muted">Text · images · message history</text>
+
+  <rect x="408" y="249" width="384" height="144" rx="16" fill="#e4f0e9" stroke="#c2d9cc"/>
+  <text x="434" y="281" class="label" style="fill:#4b8066">BACKEND</text>
+  <text x="434" y="317" class="heading">Python web support</text>
+  <text x="434" y="348" class="body muted">Connect website and operator tools</text>
+  <text x="434" y="376" class="small muted">Application logic remains private</text>
+
+  <path d="M331 320H402" class="flow" marker-start="url(#arrowBack)"/>
+  <text x="340" y="301" font-size="13" class="muted">Chat</text>
+
+  <rect x="408" y="427" width="384" height="115" rx="16" fill="#fff" stroke="#c9dcd0" stroke-width="1.5"/>
+  <text x="434" y="463" class="heading">Support workflow</text>
+  <text x="434" y="494" class="body muted">Requests · replies · availability</text>
+  <text x="434" y="520" class="small muted">Shared context for website and team</text>
+  <path d="M600 397V421" class="flow" marker-start="url(#arrowBack)"/>
+
+  <rect x="892" y="427" width="256" height="115" rx="16" fill="#fff" stroke="#d8e4de"/>
+  <ellipse cx="1020" cy="452" rx="23" ry="7" fill="#e0eee5" stroke="#679279" stroke-width="1.5"/>
+  <path d="M997 452v17c0 10 46 10 46 0v-17" fill="#e0eee5" stroke="#679279" stroke-width="1.5"/>
+  <text x="918" y="502" font-size="20" font-weight="650">Conversation storage</text>
+  <text x="918" y="526" class="small muted">Messages and status</text>
+  <path d="M796 486H886" class="flow" marker-start="url(#arrowBack)"/>
+  <text x="810" y="471" font-size="13" class="muted">Context</text>
+
+  <rect x="408" y="575" width="384" height="110" rx="16" fill="#e4f0e9" stroke="#c2d9cc"/>
+  <text x="434" y="606" class="label" style="fill:#4b8066">OPERATOR TOOLS</text>
+  <text x="434" y="640" class="heading">Telegram integration</text>
+  <text x="434" y="667" class="small muted">Support messages and administrator actions</text>
+  <path d="M600 571V548" class="flow" marker-start="url(#arrowBack)"/>
+
+  <rect x="52" y="575" width="275" height="110" rx="16" fill="#fff" stroke="#d8e4de"/>
+  <text x="75" y="615" class="heading">Telegram team</text>
+  <text x="75" y="645" class="body muted">Administrator actions</text>
+  <text x="75" y="669" class="small muted">External service</text>
+  <path d="M331 630H402" class="flow" marker-start="url(#arrowBack)"/>
+
+  <rect x="892" y="575" width="256" height="110" rx="16" fill="#e9eeec"/>
+  <text x="914" y="607" class="label muted">DIAGRAM SCOPE</text>
+  <text x="914" y="635" class="small muted">High-level capabilities only.</text>
+  <text x="914" y="658" class="small muted">Private details omitted.</text>
+
+  <line x1="52" y1="735" x2="1148" y2="735" stroke="#d6e1dc"/>
+  <text x="52" y="762" class="small muted">Architecture based on source review · reviewed in source; execution not verified</text>
+<g id="portfolio-copyright"><rect x="0" y="790" width="1200" height="36" fill="#ffffff"/><text x="32" y="813" style="fill:#536777;font:12px Segoe UI,Arial,sans-serif">© 2026 Anton Gorodnichiy · All rights reserved · Private implementation</text></g>
+</svg>

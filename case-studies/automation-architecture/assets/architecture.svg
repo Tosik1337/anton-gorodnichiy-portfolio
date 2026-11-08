@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="656" viewBox="0 0 1120 656" role="img" aria-labelledby="title desc">
+  <title id="title">Automation Architecture Case Study — durable work</title>
+  <desc id="desc">Backend services coordinate a PostgreSQL work queue, supervised background workers, transactional results and audit patterns. The public illustration omits domain workflows and implementation details.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7dd3c7"/></marker>
+  </defs>
+  <rect width="1120" height="620" rx="24" fill="#101d2d"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="48" y="57" fill="#7dd3c7" font-size="15" font-weight="700" letter-spacing="2">PYTHON BACKEND / DURABLE WORK</text>
+    <text x="48" y="104" fill="#f5f1e7" font-size="34" font-weight="700">Keep work and its history connected</text>
+    <text x="48" y="138" fill="#b7c4d3" font-size="18">General patterns from a private architecture</text>
+    <rect x="48" y="196" width="296" height="130" rx="15" fill="#1c3047" stroke="#486078"/>
+    <text x="72" y="236" fill="#f5f1e7" font-size="23" font-weight="700">Backend services</text>
+    <text x="72" y="271" fill="#c8d4df" font-size="17">Workflow state</text>
+    <text x="72" y="298" fill="#c8d4df" font-size="17">Validation and audit</text>
+    <path d="M 349 261 H 398" fill="none" stroke="#7dd3c7" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="413" y="196" width="296" height="130" rx="15" fill="#173e45" stroke="#7dd3c7"/>
+    <text x="437" y="236" fill="#f5f1e7" font-size="23" font-weight="700">PostgreSQL queue</text>
+    <text x="437" y="271" fill="#d1e7e3" font-size="17">Durable task state</text>
+    <text x="437" y="298" fill="#d1e7e3" font-size="17">Ownership and recovery</text>
+    <path d="M 714 261 H 763" fill="none" stroke="#7dd3c7" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <rect x="778" y="196" width="294" height="130" rx="15" fill="#1c3047" stroke="#486078"/>
+    <text x="802" y="236" fill="#f5f1e7" font-size="23" font-weight="700">Background workers</text>
+    <text x="802" y="271" fill="#c8d4df" font-size="17">Supervised processes</text>
+    <text x="802" y="298" fill="#c8d4df" font-size="17">Liveness and result handling</text>
+    <path d="M 560 331 V 382" fill="none" stroke="#7dd3c7" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="48" y="397" width="1024" height="112" rx="15" fill="#263346" stroke="#7b8ca0"/>
+    <text x="72" y="437" fill="#f5f1e7" font-size="23" font-weight="700">Durable records and audit patterns</text>
+    <text x="72" y="474" fill="#c8d4df" font-size="18">Transactional results</text>
+    <text x="418" y="474" fill="#c8d4df" font-size="18">Event outbox</text>
+    <text x="775" y="474" fill="#c8d4df" font-size="18">Ledger history</text>
+    <text x="48" y="568" fill="#b7c4d3" font-size="16">Original illustration · Source-reviewed structure · Execution not verified</text>
+    <text x="48" y="594" fill="#7d90a6" font-size="14">Architecture only. Domain logic, private workflows and operational setup are omitted.</text>
+  </g>
+<g id="portfolio-copyright"><rect x="0" y="620" width="1120" height="36" fill="#ffffff"/><text x="32" y="643" style="fill:#536777;font:12px Segoe UI,Arial,sans-serif">© 2026 Anton Gorodnichiy · All rights reserved · Private implementation</text></g>
+</svg>
