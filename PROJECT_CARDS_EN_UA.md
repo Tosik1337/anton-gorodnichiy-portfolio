@@ -1,28 +1,28 @@
 # Project cards / Картки проєктів
 
-Short descriptions for a profile or proposal. Each link opens a fuller case with its limits. All implementations are private; reviewed in source, execution not verified. No commercial use or performance figures are implied.
+Short descriptions for a profile or proposal. Each link opens a fuller case with its limits. All implementations are private. The first three cases now have executed local demonstration evidence; supporting cases remain source-reviewed. No commercial use or performance figures are implied.
 
 ## Transactional Review Workflow
 
-**EN:** A Python workflow for shared requests and role-based review. I implemented transactional reservations, assignment checks and repeated-review guards. Useful for approval queues and internal request processing.
+**EN:** A private harness verifies selected original reservation/review logic: one winner, one credit update, permission denial and saved-state restart. I defined workflow requirements and directed AI-assisted development, testing and diagnosis.
 
-**UA:** Python-процес для спільної черги заявок і рольової перевірки. Я реалізував транзакційне резервування, перевірки призначення та захист від повторного розгляду. Підходить для погоджень і внутрішньої обробки заявок.
+**UA:** Приватний стенд перевіряє вибрану вихідну логіку: один резерв, одне нарахування, права та збереження після перезапуску. Мій внесок — вимоги, AI-assisted розробка, тестування й діагностика.
 
 [Case study](case-studies/transactional-review-workflow/README.md)
 
 ## Support Workflow Orchestrator
 
-**EN:** A support workflow with persistent action status and integration recovery. I implemented event handling and a separate uncertain state for actions whose external result is unclear. Live equipment acceptance is not claimed.
+**EN:** Selected original components run against fake HTTP: a lost response leaves saved uncertainty; repeated events and a new process cause no second action. Authorized matching readback confirms the result. Live hardware is not verified.
 
-**UA:** Процес підтримки зі збереженням станів дій і відновленням інтеграцій. Я реалізував обробку подій та окремий стан для дій із невідомим зовнішнім результатом. Приймання на реальному обладнанні не заявляється.
+**UA:** Вибрані вихідні компоненти працюють із fake HTTP: втрачена відповідь зберігає невизначеність; повтор і новий процес не дублюють дію. Відповідна перевірка стану підтверджує результат. Реальне обладнання не перевірено.
 
 [Case study](case-studies/support-workflow-orchestrator/README.md)
 
 ## Web Operations & Support Platform
 
-**EN:** Selected capabilities from a private platform: a browser support widget, Telegram operator tools and request assignment. I developed these frontend/backend workflows. Public visuals are neutral illustrative reconstructions.
+**EN:** A working local support demonstration: visitor request, operator queue, reply and resolved state. Separate visitor contexts cannot read or change each other's requests. Real screenshots and a continuous recording; this is a new narrow demo based on the private project.
 
-**UA:** Вибрані можливості приватної платформи: віджет підтримки в браузері, інструменти операторів у Telegram і призначення заявок. Я розробив цю взаємодію frontend/backend. Публічні зображення — нейтральні ілюстративні реконструкції.
+**UA:** Робоче локальне демо підтримки: заявка, черга оператора, відповідь і закриття. Відвідувачі ізольовані. Справжні кадри й безперервний запис; це окреме вузьке демо на основі приватного проєкту.
 
 [Case study](case-studies/web-operations-support-platform/README.md)
 

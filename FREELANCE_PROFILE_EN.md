@@ -8,7 +8,7 @@ I build Python backend tools, API integrations and Telegram workflows. I can hel
 
 I am Anton Gorodnichiy, a Python developer focused on backend services and automation. I turn a manual process into a clear workflow: receive a request, check it, update the state and show the result to the right person.
 
-I have designed and implemented request and review workflows, support integrations, administrative web interfaces and local operations tools. The case studies in my portfolio explain the problem, my contribution, the technical approach and the current limits. Source code stays private.
+My work includes defining request and review workflows, directing AI-assisted development of support integrations and internal interfaces, and manual testing and diagnosis. The case studies in my portfolio explain the problem, my contribution, the technical approach and the current limits. Source code stays private.
 
 For an existing system, I start with a reproducible example and a narrow change. For a new tool, I agree on the user roles, data boundaries and acceptance scenarios before implementation. I include setup notes and a handover that fits the agreed scope.
 
@@ -30,6 +30,6 @@ A clearly scoped change, agreed checks for normal and failure paths, and practic
 
 [Selected work](PORTFOLIO_INDEX.md) · [Service scope](SERVICES.md) · [Contact](CONTACT.md)
 
-Portfolio implementation status: **reviewed in source; execution not verified**. Case studies describe private implementations and do not claim production metrics.
+The three primary case studies include verified local demonstration evidence. Full production applications and external integrations are not claimed verified; supporting studies remain source-reviewed. Implementation code stays private.
 
 © 2026 Anton Gorodnichiy. All rights reserved. [Rights and reuse](RIGHTS.md).

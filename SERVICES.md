@@ -1,5 +1,7 @@
 # Services / Послуги
 
+**Client outcomes:** website requests into an operator queue; approvals with roles and status; API integrations with error and duplicate handling; small staff panels; focused Python bot fixes.
+
 **Python backend, automation and integrations.** I agree on scope, acceptance checks and handover before starting. Price, delivery date and support terms follow task assessment.
 
 ## 1. Python bot or integration fix / Виправлення Python-бота чи інтеграції

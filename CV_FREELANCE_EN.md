@@ -5,7 +5,7 @@
 
 ## Profile
 
-Python developer focused on backend logic, API integrations and internal tools. I design and implement workflows, connect components, and diagnose state and integration problems. My portfolio presents selected private implementations with clear technical scope and limitations.
+Python developer focused on backend logic, API integrations and internal tools. I define workflow requirements, direct AI-assisted development, and use manual testing and diagnosis to refine results. My portfolio includes controlled local demonstrations of selected private workflows.
 
 ## Skills
 
@@ -16,11 +16,11 @@ Python developer focused on backend logic, API integrations and internal tools. 
 
 ## Selected projects
 
-**Transactional Review Workflow** — Designed and implemented role-based review and reservation logic, SQL state transitions and guards against repeated processing.
+**Transactional Review Workflow** — Defined review and reservation requirements; directed development and testing. Selected original logic now has synthetic concurrency, repeated-approval and restart checks.
 
-**Support Workflow Orchestrator** — Implemented support-event processing, persistent action state and handling for uncertain integration outcomes.
+**Support Workflow Orchestrator** — Defined incident and recovery rules; directed development and diagnosis. Selected original components have fake timeout and process-restart evidence.
 
-**Web Operations & Support Platform** — Developed the browser support interface, Telegram administrator tools and request assignment. The portfolio presents these selected neutral capabilities.
+**Web Operations & Support Platform** — Defined the support workflow and directed frontend/backend development. A separate narrow demo verifies request intake, operator reply and visitor isolation.
 
 **Local Operations Dashboard / Signed License Service** — Implemented process-management and licensing components within the same larger project. These are two scoped case studies, not two unrelated products.
 
@@ -30,6 +30,6 @@ Clarify the task and acceptance checks, implement a focused change, investigate 
 
 **Communication:** portfolio materials are available in English and Ukrainian.
 
-**Evidence status:** project-based portfolio; implementation features reviewed in source; execution not verified during this review. Source code remains private.
+**Evidence status:** local demonstrations and selected core checks are verified within their stated scope; full production applications and external integrations are not. Source code remains private.
 
 © 2026 Anton Gorodnichiy. All rights reserved. [Rights and reuse](RIGHTS.md).

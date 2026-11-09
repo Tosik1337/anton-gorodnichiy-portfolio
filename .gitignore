@@ -1,4 +1,4 @@
-# Only reviewed portfolio documents are eligible for tracking.
+# Only explicitly reviewed portfolio documents and genuine demo media.
 *
 !/case-studies/
 !/case-studies/automation-architecture/
@@ -35,12 +35,24 @@
 !/case-studies/signed-license-service/README.md
 !/case-studies/signed-license-service/assets/architecture.svg
 !/case-studies/support-workflow-orchestrator/README.md
+!/case-studies/support-workflow-orchestrator/assets/01-executed-results.png
+!/case-studies/support-workflow-orchestrator/assets/02-workflow-details.png
+!/case-studies/support-workflow-orchestrator/assets/03-scope-and-outcome.png
 !/case-studies/support-workflow-orchestrator/assets/architecture.svg
 !/case-studies/support-workflow-orchestrator/assets/timeout-recovery.svg
 !/case-studies/transactional-review-workflow/README.md
+!/case-studies/transactional-review-workflow/assets/01-executed-results.png
+!/case-studies/transactional-review-workflow/assets/02-workflow-details.png
+!/case-studies/transactional-review-workflow/assets/03-scope-and-outcome.png
 !/case-studies/transactional-review-workflow/assets/architecture.svg
 !/case-studies/transactional-review-workflow/assets/review-states.svg
 !/case-studies/web-operations-support-platform/README.md
+!/case-studies/web-operations-support-platform/assets/01-visitor-request.png
+!/case-studies/web-operations-support-platform/assets/02-operator-queue.png
+!/case-studies/web-operations-support-platform/assets/03-operator-reply.png
+!/case-studies/web-operations-support-platform/assets/04-visitor-response.png
+!/case-studies/web-operations-support-platform/assets/05-isolated-visitor.png
 !/case-studies/web-operations-support-platform/assets/architecture.svg
 !/case-studies/web-operations-support-platform/assets/request-assignment.svg
 !/case-studies/web-operations-support-platform/assets/support-conversation.svg
+!/case-studies/web-operations-support-platform/assets/support-workflow.webm

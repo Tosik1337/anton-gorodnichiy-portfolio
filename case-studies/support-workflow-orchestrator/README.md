@@ -1,61 +1,57 @@
 # Support Workflow Orchestrator
 
-A Python support workspace that brings incidents, staff decisions and integration status together for clearer day-to-day operations.
+**Keep a lost API response from turning into a blind second action.**
 
-**Private implementation — public case study. Source code is not publicly available.**
+![Recorded results of the executed synthetic incident and recovery](assets/01-executed-results.png)
 
-**Stack:** Python · pyTelegramBotAPI · Telethon · asyncio · httpx · SQLite · cryptography/Fernet  
-**Status:** reviewed in source; execution not verified
+*Captured from local synthetic-data demo. This is a browser capture of **recorded results from an executed synthetic-data harness**, not a live equipment dashboard or an illustrative reconstruction.*
 
 ## Problem → Solution → Result
 
-| | Case |
-| --- | --- |
-| **Problem** | Support information is spread across messages, staff assignments and external systems. Operators need to understand who owns a request and which work needs attention. |
-| **Solution** | A Telegram support interface with role-controlled decisions, integration boundaries, recorded status and administrator review. |
-| **Result** | The source contains a connected support workflow with incident routing, duplicate-action safeguards and visibility of interrupted work. Runtime reliability and live integration behavior remain unverified. |
+An external system can apply a command and then lose the response. A private harness used selected original persistence, HTTP-adapter and coordinator components with strictly fake transport. The fake action happened, immediate state checks were unavailable, and uncertainty was saved.
 
-## Capabilities at a glance
+A second process reopened the saved incident. Repeated events and requests did not apply the action again. Only an authorized matching state check confirmed the result. The fixture recorded **one applied action and zero duplicate actions** across both processes.
 
-![Conceptual capability map: support intake, operator decisions, integrations, recorded status and human review](assets/architecture.svg)
+## What this demonstrates
 
-*Original capability illustration with neutral labels. It does not show the private implementation or a running interface.*
+- A real applied-but-timeout simulation through the original adapter with fake HTTP responses.
+- Persisted uncertainty and refusal of blind repeated execution.
+- A literal child-process restart, with the original saved result reloaded.
+- Unauthorized review and mismatching observed state leave the outcome uncertain; an authorized matching check confirms it.
+- **11 focused checks passed**. Targeted original source hashes stayed unchanged. Checked 9 November 2026.
 
-- **Support intake:** connect incoming incidents with the relevant support assignment.
-- **Operator decisions:** provide ticket actions that respect staff permissions.
-- **Integration boundaries:** connect existing systems through dedicated adapters.
-- **Recorded status:** keep work and outcomes visible beyond the current interaction.
-- **Human review:** make uncertain or interrupted work available for administrator attention.
+![Executed uncertainty, restart and review checks](assets/02-workflow-details.png)
 
-## Engineering focus
+*Captured from local synthetic-data demo: recorded results viewer. All device responses are fake. No real equipment, calls, Telegram accounts or external service requests were used.*
 
-**Clear responsibility.** Support roles, ticket context and integration boundaries help keep operator actions understandable and maintainable.
+## How it works
 
-**Visible uncertainty.** The workflow distinguishes recorded outcomes from work that needs investigation. That supports informed human decisions when external systems are unreliable. Implementation and recovery details remain private.
+```mermaid
+flowchart LR
+  A[Synthetic incident] --> B[Recorded outcome]
+  B --> C[Uncertainty visible]
+  C --> D[Authorized state review]
+  D --> E[Confirmed result]
+```
 
-![Conceptual view of operator information: work context, recorded outcomes and items requiring human attention](assets/timeout-recovery.svg)
-
-*Original explanatory illustration. These are capability concepts, not internal state names or an execution sequence.*
+**Original selected stack:** Python, SQLite, httpx and cryptography; the parent project also integrates Telegram. The harness keeps the selected original state logic and replaces only external transport and the excluded continuation. The invariant is that an uncertain saved action is not automatically executed again in the checked path.
 
 ## My contribution
 
-I defined the support requirements, designed the incident workflow and implemented the operator interface and integrations. I worked on permissions, status visibility and failure diagnosis, using manual testing and debugging during development. This publication reviews the source; it does not reproduce those earlier testing sessions.
+I defined the incident and recovery requirements, directed AI-assisted development, and manually tested and debugged workflow behavior. The new harness makes selected original component behavior reproducible with synthetic data.
 
-## What I can build for a client
+## What I can deliver for a client
 
-- A Telegram support bot with staff assignments, incident status and administrator controls.
-- An integration service with recorded outcomes and duplicate-action safeguards.
-- An internal operations tool that connects existing systems and highlights work needing human review.
+- API integrations with saved action status and repeated-event handling.
+- A support workflow that highlights uncertain outcomes for human review.
+- Diagnosis and a focused regression fix for timeout or restart problems.
 
-## Status & limitations
+## Limitations / private source
 
-This is a substantial integration MVP. **reviewed in source; execution not verified** applies to the application and its existing tests.
+Intake setup, event-completion wiring, fake equipment and the result viewer are harness components. The full production handler, startup and post-review continuation were excluded. This does not prove live hardware compatibility, Telegram delivery, SIP/calls, crash recovery of the full application, load or deployment readiness.
 
-- No live accounts, equipment or diagnostic calls were used for this case study. Integration compatibility, deployment readiness, load and service levels remain unverified. Existing private tests were not run.
-- Known maintenance debt remains in database helpers and large modules. Simultaneous use needs further testing.
-- Credential protection has a limited scope. Deployment security and access to private account data need separate review.
-- Interrupted work can require administrator judgment. Fully automatic recovery is not established.
+Private implementation — public case study. Source code is not publicly available.
 
-[Discuss a similar integration](../../CONTACT.md)
+[Discuss a similar integration](../../CONTACT.md) · [Portfolio](../../README.md)
 
 © 2026 Anton Gorodnichiy. All rights reserved. [Rights and reuse](../../RIGHTS.md).

@@ -2,41 +2,40 @@
 
 ### Python Developer — Backend & Automation
 
-I build Python tools that turn repeated manual work into clear workflows: requests, approvals, API integrations and internal dashboards. My focus is practical backend logic, reliable state changes and useful interfaces.
+**I help turn manual requests, approvals and API work into clear Python workflows.**
 
-**Have a workflow to automate or a Python integration to fix?** Tell me what happens today, what should change and how we can check the result.
+Website requests into an operator queue · Task approvals with role checks · API error and duplicate handling · Small internal dashboards · Python bot and integration fixes.
 
-[Contact by email](mailto:anton.goro17@gmail.com) · [Український профіль](FREELANCE_PROFILE_UA.md) · [All case studies](PORTFOLIO_INDEX.md) · [CV / EN](CV_FREELANCE_EN.md) · [CV / UA](CV_FREELANCE_UA.md)
+[Discuss your task](mailto:anton.goro17@gmail.com) · [Послуги](SERVICES.md) · [English profile](FREELANCE_PROFILE_EN.md) · [Український профіль](FREELANCE_PROFILE_UA.md)
 
-## What I work on
+## See a workflow actually run
 
-- Python backend services and HTTP/API integrations.
-- Telegram request, approval and support workflows.
-- SQL-backed queues, reservations and state transitions.
-- Internal web dashboards and administrative interfaces.
-- Debugging automation, timeouts and repeated-event handling.
+![Real local support demo: an operator replies to a visitor](case-studies/web-operations-support-platform/assets/03-operator-reply.png)
 
-**Core stack:** Python · asyncio · FastAPI · SQLite · PostgreSQL · SQLAlchemy · aiogram · Telethon · HTML/CSS/JavaScript · Jinja2.
+*Captured from local synthetic-data demo. The support UI is a separate portfolio demonstration based on the private project. [Watch the continuous 52-second recording](case-studies/web-operations-support-platform/assets/support-workflow.webm).*
 
-## Selected work
+| Client task | Evidence to inspect |
+| --- | --- |
+| [Website requests and operator support](case-studies/web-operations-support-platform/README.md) | Working local UI: request → queue → reply → resolved; two-visitor isolation checks |
+| [Approvals and shared work](case-studies/transactional-review-workflow/README.md) | Selected original logic: competing reservations, one review result, permissions and restart |
+| [API errors and repeated events](case-studies/support-workflow-orchestrator/README.md) | Selected original components: lost response, saved uncertainty and fake-state review after restart |
 
-| Case study | Client problem | Engineering focus |
-| --- | --- | --- |
-| [Transactional Review Workflow](case-studies/transactional-review-workflow/README.md) | Several staff members need to reserve and review shared work | SQL transactions, role checks and repeated-review guards |
-| [Support Workflow Orchestrator](case-studies/support-workflow-orchestrator/README.md) | Support actions can fail halfway through an integration | Persistent status, deduplication and uncertain-outcome handling |
-| [Web Operations & Support Platform](case-studies/web-operations-support-platform/README.md) | Operators need one place to handle incoming requests and support | Browser widget, Telegram operator tools and request assignment |
+The first case is a new narrow demonstration. The next two exercise selected original components in private synthetic-data harnesses. Their result-viewer captures are labelled as recorded evidence. No production readiness, real customer outcome or live external integration is implied.
 
-The [extended portfolio](PORTFOLIO_INDEX.md) also covers a local operations dashboard, a licensing backend and automation architecture. The dashboard and licensing studies are two parts of the same larger project.
+## What I can deliver
 
-## How I work
+- Request intake and a small staff queue or support interface.
+- Approval workflows with roles and task status.
+- Authorized API integration with saved state and agreed failure checks.
+- A focused diagnosis and fix for an existing Python bot or integration.
 
-I clarify the workflow and its constraints, implement the agreed scope, and check normal and failure paths. I can work on a focused fix, connect an existing API or build a small internal tool. Scope, acceptance checks and handover are agreed before work starts.
+I define the workflow and acceptance checks, direct AI-assisted implementation, and use testing and diagnosis to refine the result. Scope, delivery terms and handover are agreed for each task.
 
-[Services](SERVICES.md) · [English profile](FREELANCE_PROFILE_EN.md) · [English CV PDF](CV_FREELANCE_EN.pdf) · [Українське резюме PDF](CV_FREELANCE_UA.pdf)
+**Core stack:** Python · FastAPI · asyncio · SQLite/PostgreSQL · SQLAlchemy · Telegram integrations · HTML/CSS/JavaScript.
 
-## About this portfolio
+[Full project index](PORTFOLIO_INDEX.md) · [Services](SERVICES.md) · [CV EN](CV_FREELANCE_EN.pdf) · [Резюме UA](CV_FREELANCE_UA.pdf)
 
-These are descriptions of private implementations, with original neutral diagrams and clearly labelled illustrative reconstructions. Implementation features are **reviewed in source; execution not verified** in this portfolio review. No production metrics or completed deployment acceptance are claimed.
+The supporting dashboard, licensing and architecture studies remain source-reviewed. The dashboard and licensing studies are two parts of one larger project.
 
 **Private implementation — public case study. Source code is not publicly available.**
 

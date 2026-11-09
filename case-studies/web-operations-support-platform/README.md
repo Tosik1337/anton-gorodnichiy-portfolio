@@ -1,61 +1,60 @@
 # Web Operations & Support Platform
 
-Connect website questions to a Telegram support team, with stored conversations and explicit request ownership.
+**Turn a website question into an assigned support request and return the reply to the right visitor.**
 
-**Private implementation — public case study. Source code is not publicly available.**
+[Watch the continuous 52-second operator demo](assets/support-workflow.webm) · [Visitor result](assets/04-visitor-response.png)
 
-**Status:** MVP; **reviewed in source; execution not verified**.
+| Visitor sends a request | Operator accepts and replies |
+| --- | --- |
+| ![Actual visitor request](assets/01-visitor-request.png) | ![Actual operator reply](assets/03-operator-reply.png) |
 
-| Problem | Solution | Result |
-| --- | --- | --- |
-| Website visitors need help, while the support team works in Telegram. | A browser chat widget and Python backend connect visitor questions to operator tools. | The reviewed implementation contains stored conversations, operator replies, availability controls and request assignment. Deployment and business impact have not been verified. |
+*Captured from local synthetic-data demo. This is a **portfolio demonstration based on the private project**: a new narrow support application, including a new web operator console. It is not the original full application's interface or a production deployment.*
 
-![Neutral browser support interface, reconstructed with synthetic messages](assets/support-conversation.svg)
+## Problem → Solution → Result
 
-*Illustrative reconstruction — synthetic data; not a running application screenshot. The layout and English copy were created for this case study.*
+A visitor needs an answer, and the team needs clear ownership. The demo saves a request, shows it in an operator queue, supports claiming and replying, and returns the saved reply and status to its owner. A second independent visitor cannot read or change that request.
 
-## My role
+## What this demonstrates
 
-I designed and implemented the browser support workflow, Python backend, conversation storage and Telegram operator tools. My work included administrator access checks, request ownership and handling failed handoffs.
+- Actual browser flow: submit → queue → claim → reply → resolve → visitor sees the reply.
+- Separate visitor contexts: unauthorized read and write both return 404.
+- Role and action checks, a single winner for competing operator claims, and saved state after application recreation.
+- **20 API/guard checks passed**, plus the real browser scenario and recording. Checked 9 November 2026; test output includes one upstream deprecation warning.
 
-## Main features
+![Actual reply and resolved state in the visitor workspace](assets/04-visitor-response.png)
 
-- **Chat inside a website:** an embeddable widget supports text, images, conversation history and an unread indicator.
-- **Telegram operator replies:** browser messages are forwarded to the configured support recipients; administrators can reply through bot actions.
-- **Operator-set availability:** conversation status can be changed from Telegram and reflected in the browser interface.
-- **Request ownership:** administrators can take responsibility for incoming requests.
-- **Stored conversation context:** the backend retains messages and conversation status for the support exchange.
+*Captured from local synthetic-data demo. The video shows the operator view; these frames also show the visitor result. No real messages, accounts or customer data are involved.*
 
-## Engineering approach
+## How it works
 
-The web and operator tools share a Python backend so that messages and actions use the same application logic. Administrator checks and explicit request ownership support coordinated handling. Implementation details remain private.
+```mermaid
+flowchart LR
+  A[Visitor request] --> B[Operator queue]
+  B --> C[Claimed request]
+  C --> D[Reply and status]
+  D --> E[Original visitor]
+```
 
-![Reconstructed Telegram request handoff using synthetic data](assets/request-assignment.svg)
+The narrow demo uses **Python, FastAPI, SQLite and vanilla HTML/CSS/JavaScript**. The key invariant is simple: a request can be read or changed only in its authorized context. Browser actions and database changes are real; external integrations are disabled.
 
-*Illustrative reconstruction — synthetic data; not a running application screenshot. These abstract message cards do not reproduce a private layout.*
+The original private project contains a browser support widget, Python support storage and Telegram operator tools. Those capabilities informed this demonstration. Its new web console is not attributed to the original project or an adjacent application.
 
-## Architecture and stack
+## My contribution
 
-**Python · FastAPI · aiogram · SQLAlchemy · SQLite · Alembic · Jinja2 · JavaScript · HTML/CSS.** Test files are present; no passing test result is claimed.
+I defined requirements and workflow rules, directed AI-assisted development, and used manual testing and debugging to refine the private workflow. The demonstration adds automated API and real-browser evidence; it does not imply I manually wrote every line.
 
-![Scoped architecture of the Python web support and operator workflow](assets/architecture.svg)
+## What I can deliver for a client
 
-*Architecture diagram based on source review; external delivery and runtime behavior were not exercised.*
+- Website request intake with an operator queue and clear ownership.
+- A small internal support interface with roles, replies and task status.
+- A Python backend integration with agreed acceptance and failure checks.
 
-## What I can build for a client
+## Limitations / private source
 
-- A website support widget connected to a Telegram operator workflow.
-- An internal request intake and assignment flow with roles and clear ownership.
-- A Python API and database layer for a small support or operations tool, with agreed acceptance checks.
+This verified demo is separate from the full original application. Original visitor-isolation and shared-state deficiencies are **not claimed fixed**. Real Telegram delivery, uploads, production authentication, deployment and load acceptance were not tested. Local demo tests do not establish production readiness or customer results.
 
-## Status and limitations
+Private implementation — public case study. Source code is not publicly available.
 
-This case covers the Python backend's support widget, conversation storage and administrator request workflow. Adjacent landing pages, a separate work-panel application and a separate Node.js widget are outside this case.
-
-The reviewed MVP needs stronger visitor isolation and separation of shared state before use with independent customers. Delivery reliability, image handling, retention and abuse controls need further work. The reviewed copy also has incomplete page assets.
-
-No application, bot or test suite was run for this case study. End-to-end behavior, deployment, concurrent operation and production readiness remain unverified. The neutral visuals illustrate selected support features and do not imply that the underlying limitations were fixed.
-
-[Discuss a similar project](../../CONTACT.md) · [Portfolio](../../README.md)
+[Discuss a similar workflow](../../CONTACT.md) · [Portfolio](../../README.md)
 
 © 2026 Anton Gorodnichiy. All rights reserved. [Rights and reuse](../../RIGHTS.md).
